@@ -1,9 +1,9 @@
-# STYLIS - Forked
+# STYLIS
 
 https://github.com/keenlycode/stylis
 
-## Fork from  
-[![stylis](https://stylis.js.org/assets/logo.svg)](https://github.com/thysultan/stylis.js)
+> A forked repository for
+> [![stylis](https://stylis.js.org/assets/logo.svg)](https://github.com/thysultan/stylis.js)
 
 A Light–weight CSS Preprocessor.
 
@@ -11,6 +11,18 @@ A Light–weight CSS Preprocessor.
 [![Size](https://badgen.net/bundlephobia/minzip/stylis)](https://bundlephobia.com/result?p=stylis)
 [![Licence](https://badgen.net/badge/license/MIT/blue)](https://github.com/thysultan/stylis.js/blob/master/LICENSE)
 [![NPM](https://badgen.net/npm/v/stylis)](https://www.npmjs.com/package/stylis)
+
+## Changed
+
+Support '&' selector for partial CSS which make follow CSS valid.
+```css
+& {
+	button { color: red }
+}
+&:hover {
+	background-color: blue;
+}
+```
 
 ## Installation
 
