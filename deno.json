@@ -1,6 +1,6 @@
 {
   "name": "@devcapsule/stylis",
-  "version": "0.1.0",
+  "version": "0.1.1dev",
   "license": "MIT",
   "exports": "./index.js"
 }
